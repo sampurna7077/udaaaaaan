@@ -1,0 +1,21 @@
+
+> rest-express@1.0.0 start
+> node --env-file=.env dist/index.js
+
+📡 File monitoring started - checking every 5 seconds
+Warning: SESSION_SECRET should be at least 32 characters long
+12:04:16 AM [express] 📡 WebSocket file monitoring enabled
+12:04:16 AM [express] serving on port 5000
+Starting advertisement cleanup service...
+Running advertisement cleanup...
+Advertisement cleanup service started (runs every hour)
+12:04:16 AM [express] 🏠 Hosting mode: VPS/Development
+No expired advertisements to clean up
+🔍 File Watcher initialized - monitoring 10 JSON files
+12:04:26 AM [express] GET /api/jobs 200 in 32ms :: {"jobs":[{"id":"UYNPKg3So-c6uU4923z5R","title":"Vo…
+12:04:42 AM [express] 🔌 WebSocket client connected for file monitoring
+👤 Client connected - total clients: 1
+12:05:20 AM [express] GET /api/jobs 200 in 5ms :: {"jobs":[{"id":"-lu7vHLE-obMDxUd-RxR5","title":"for…
+12:05:27 AM [express] GET /api/jobs 200 in 8ms :: {"jobs":[{"id":"UYNPKg3So-c6uU4923z5R","title":"Vol…
+12:05:34 AM [express] GET /api/jobs 200 in 6ms :: {"jobs":[{"id":"-lu7vHLE-obMDxUd-RxR5","title":"for…
+Killed
