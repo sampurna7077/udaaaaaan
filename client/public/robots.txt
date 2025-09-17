@@ -1,0 +1,95 @@
+# Robots.txt for Udaan Agencies - Global Opportunities Consultancy in Nepal
+# Allow all well-behaved crawlers full access to the site
+
+User-agent: *
+Allow: /
+
+# Allow all major search engine crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Disallow access to admin areas and sensitive paths
+Disallow: /server/
+Disallow: /uploads/temp/
+Disallow: /private/
+Disallow: /dist/
+
+# Allow access to important resources
+Allow: /uploads/resources/
+Allow: /images/
+
+# Crawl-delay for respectful crawling (1 second)
+Crawl-delay: 1
+
+# Sitemap location (update this URL to match your domain)
+Sitemap: https://udaanagencies.com.np/sitemap.xml
+
+# Priority pages for crawlers
+# Homepage
+Allow: /
+
+# Important service pages
+Allow: /jobs
+Allow: /services
+Allow: /about
+Allow: /contact
+Allow: /resources
+Allow: /consultation
+
+# FAQ and resources for better search visibility
+Allow: /resources/faq
+Allow: /resources/guides
+Allow: /resources/blog
+
+# Job-related pages
+Allow: /jobs/local
+Allow: /jobs/apply
+
+# Legal and informational pages
+Allow: /privacy
+Allow: /terms
+Allow: /sitemap
+
+# Clean URLs and trailing slashes
+Allow: /*?
+
+# Block aggressive or bad bots
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Comment: This robots.txt file is optimized for Udaan Agencies
+# Last updated: September 2025
+# Contact: info@udaanagencies.com for any crawler-related queries
